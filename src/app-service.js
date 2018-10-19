@@ -265,6 +265,48 @@ appModule.service("DATA_SERVICE", [function(){
     CARD_LIST.push(cardDay2);
 
 
+    // DAY - 1
+    const cardDay1 = {
+        "ID" : 1,
+        "TITLE" : "DAY 1",
+        "HEADING" : "Dynamic blocks",
+        "DESC" : `HTML Fundamentals and basic tags`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Hello World", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day1/1.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day1/1.html`,
+            },
+
+            {  
+                "ID":2, "TITLE": "Heading Tags", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day1/3.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day1/3.html`,
+            },
+
+            {  
+                "ID":3, "TITLE": "Styling Heading Tags", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day1/4.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day1/4.html`,
+            },
+
+            {  
+                "ID":4, "TITLE": "Division Tag and CSS height property", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day1/5.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day1/5.html`,
+            },
+
+            {  
+                "ID":5, "TITLE": "Image tag", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day1/7.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day1/7.html`,
+            },
+        ]
+    };
+    CARD_LIST.push(cardDay1);
+
+
     this.CARD_LIST = CARD_LIST;
 
 }]);
