@@ -141,7 +141,7 @@ appModule.service("DATA_SERVICE", [function(){
             },
 
             {  
-                "ID":2, "TITLE": "<mark>Character Entities</mark>, 3*3 equal height width design with bootstrap", 
+                "ID":3, "TITLE": "<mark>Character Entities</mark>, 3*3 equal height width design with bootstrap", 
                 "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day4/3.html`,
                 "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day4/3.html`,
             },
@@ -149,6 +149,49 @@ appModule.service("DATA_SERVICE", [function(){
         ]
     };
     CARD_LIST.push(cardDay4);
+
+
+
+    // DAY - 3
+    const cardDay3 = {
+        "ID" : 3,
+        "TITLE" : "DAY 3",
+        "HEADING" : "Dynamic blocks",
+        "DESC" : `CSS Rules, Element Selector, ID Selector and Class Selector Rule`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "CSS ID Selector Rule Example", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day3/1.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day3/1.html`,
+            },
+
+            {  
+                "ID":2, "TITLE": "CSS ID Selector and Class Selector Rule Example", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day3/2.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day3/2.html`,
+            },
+
+            {  
+                "ID":3, "TITLE": "CSS ID, Class rule with CSS Flex", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day3/4.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day3/4.html`,
+            },
+
+            {  
+                "ID":4, "TITLE": "Google home page design with CSS", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day3/5.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day3/5.html`,
+            },
+
+            {  
+                "ID":5, "TITLE": "Page heading deisgn with CSS", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day3/6.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day3/6.html`,
+            }
+        ]
+    };
+    CARD_LIST.push(cardDay3);
 
 
     this.CARD_LIST = CARD_LIST;
