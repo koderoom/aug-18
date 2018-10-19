@@ -110,13 +110,45 @@ appModule.service("DATA_SERVICE", [function(){
             },
 
             {  
-                "ID":7, "TITLE": "Dynamic blocks with setInterval()", 
+                "ID":8, "TITLE": "Dynamic blocks with setInterval()", 
                 "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day5/10.html`,
                 "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day5/10.html`,
             },
         ]
     };
     CARD_LIST.push(cardDay5);
+
+
+
+    // DAY - 4
+    const cardDay4 = {
+        "ID" : 4,
+        "TITLE" : "DAY 4",
+        "HEADING" : "Dynamic blocks",
+        "DESC" : `UI Design with Bootstrap.`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "3*3 equal height width design with bootstrap.", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day4/1.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day4/1.html`,
+            },
+
+            {  
+                "ID":2, "TITLE": "Colorful background, 3*3 equal height width design with bootstrap", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day4/2.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day4/2.html`,
+            },
+
+            {  
+                "ID":2, "TITLE": "<mark>Character Entities</mark>, 3*3 equal height width design with bootstrap", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day4/3.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day4/3.html`,
+            },
+
+        ]
+    };
+    CARD_LIST.push(cardDay4);
 
 
     this.CARD_LIST = CARD_LIST;
