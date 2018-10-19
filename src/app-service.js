@@ -194,6 +194,77 @@ appModule.service("DATA_SERVICE", [function(){
     CARD_LIST.push(cardDay3);
 
 
+
+    // DAY - 2
+    const cardDay2 = {
+        "ID" : 2,
+        "TITLE" : "DAY 2",
+        "HEADING" : "Dynamic blocks",
+        "DESC" : `CSS Properties border, margin, padding`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "CSS Eelement Rule (Internal CSS Style)", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/1.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/1.html`,
+            },
+            {  
+                "ID":2, "TITLE": "CSS Inline Style", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/2.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/2.html`,
+            },
+            {  
+                "ID":3, "TITLE": "CSS Property - height and border-radius", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/3.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/3.html`,
+            },
+
+            {  
+                "ID":4, "TITLE": "CSS Property - Overflow and scroll", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/4.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/4.html`,
+            },
+
+            {  
+                "ID":5, "TITLE": "CSS Flexbox - Vertical division[2] of screen.", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/5.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/5.html`,
+            },
+
+            {  
+                "ID":6, "TITLE": "CSS Flexbox - Horizontal and Vertical division[2] of screen.", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/6.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/6.html`,
+            },
+
+            {  
+                "ID":7, "TITLE": "CSS Flexbox - Horizontal and Vertical division [3] of screen", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/7.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/7.html`,
+            },
+
+            {  
+                "ID":8, "TITLE": "CSS Flexbox - justify-content, align-items property", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/8.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/8.html`,
+            },
+
+            {  
+                "ID":9, "TITLE": "CSS Flexbox - center align text", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/9.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/9.html`,
+            },
+
+            {  
+                "ID":10, "TITLE": "CSS Flexbox - center align image", 
+                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/10.html`,
+                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/10.html`,
+            },
+        ]
+    };
+    CARD_LIST.push(cardDay2);
+
+
     this.CARD_LIST = CARD_LIST;
 
 }]);
