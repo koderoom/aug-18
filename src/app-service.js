@@ -2,6 +2,8 @@ var appModule=angular.module("app");
 
 appModule.service("DATA_SERVICE", [function(){
 
+    const BASE_URL_DEMO = `https://koderoom.github.io/aug-18-webdemo`;
+    const BASE_URL_SOURCE = `https://github.com/koderoom/aug-18-webdemo`;
     const CARD_LIST = [];
     
     // DAY - 7
@@ -14,14 +16,14 @@ appModule.service("DATA_SERVICE", [function(){
         "DEMO_LIST" : [
             {  
                 "ID":1, "TITLE": "Post Text Demo", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day7/1.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day7/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day7/1.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day7/1.html`,
             },
 
             {  
                 "ID":2, "TITLE": "Post Text & Upload Image, with Animation (animate.css)", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day7/2.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day7/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day7/2.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day7/2.html`,
             }
         ]
     };
@@ -38,20 +40,20 @@ appModule.service("DATA_SERVICE", [function(){
         "DEMO_LIST" : [
             {  
                 "ID":1, "TITLE": "Create Dynamic Block, Ref Block is <mark>visible</mark>.", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day6/5.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day6/5.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day6/5.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day6/5.html`,
             },
 
             {  
                 "ID":2, "TITLE": "Create Dynamic Block, Ref Block is <mark>invisible</mark>.", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day6/6.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day6/6.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day6/6.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day6/6.html`,
             },
 
             {  
                 "ID":3, "TITLE": "Create Dynamic Block, Anmiation applied.", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day6/7.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day6/7.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day6/7.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day6/7.html`,
             },
         ]
     };
@@ -69,50 +71,50 @@ appModule.service("DATA_SERVICE", [function(){
         "DEMO_LIST" : [
             {  
                 "ID":1, "TITLE": "CSS Combinator Rule example.", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day5/1.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day5/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day5/1.html`,
             },
 
             {  
                 "ID":2, "TITLE": "setInterval() basic example.", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day5/2.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day5/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/2.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day5/2.html`,
             },
 
             {  
                 "ID":3, "TITLE": "setInterval() basic, change background.", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day5/3.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day5/3.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/3.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day5/3.html`,
             },
 
             {  
                 "ID":4, "TITLE": "setInterval() basic, change background every second", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day5/4.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day5/4.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/4.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day5/4.html`,
             },
 
             {  
                 "ID":5, "TITLE": "Counter Example", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day5/6.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day5/6.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/6.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day5/6.html`,
             },
 
             {  
                 "ID":6, "TITLE": "Timer Example", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day5/7.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day5/7.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/7.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day5/7.html`,
             },
 
             {  
                 "ID":7, "TITLE": "Bootstrap Layout Example", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day5/9.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day5/9.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/9.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day5/9.html`,
             },
 
             {  
                 "ID":8, "TITLE": "Dynamic blocks with setInterval()", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day5/10.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day5/10.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/10.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day5/10.html`,
             },
         ]
     };
@@ -130,20 +132,20 @@ appModule.service("DATA_SERVICE", [function(){
         "DEMO_LIST" : [
             {  
                 "ID":1, "TITLE": "3*3 equal height width design with bootstrap.", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day4/1.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day4/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day4/1.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day4/1.html`,
             },
 
             {  
                 "ID":2, "TITLE": "Colorful background, 3*3 equal height width design with bootstrap", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day4/2.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day4/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day4/2.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day4/2.html`,
             },
 
             {  
                 "ID":3, "TITLE": "<mark>Character Entities</mark>, 3*3 equal height width design with bootstrap", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day4/3.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day4/3.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day4/3.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day4/3.html`,
             },
 
         ]
@@ -162,32 +164,32 @@ appModule.service("DATA_SERVICE", [function(){
         "DEMO_LIST" : [
             {  
                 "ID":1, "TITLE": "CSS ID Selector Rule Example", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day3/1.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day3/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/1.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day3/1.html`,
             },
 
             {  
                 "ID":2, "TITLE": "CSS ID Selector and Class Selector Rule Example", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day3/2.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day3/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/2.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day3/2.html`,
             },
 
             {  
                 "ID":3, "TITLE": "CSS ID, Class rule with CSS Flex", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day3/4.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day3/4.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/4.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day3/4.html`,
             },
 
             {  
                 "ID":4, "TITLE": "Google home page design with CSS", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day3/5.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day3/5.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/5.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day3/5.html`,
             },
 
             {  
                 "ID":5, "TITLE": "Page heading deisgn with CSS", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day3/6.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day3/6.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/6.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day3/6.html`,
             }
         ]
     };
@@ -205,60 +207,60 @@ appModule.service("DATA_SERVICE", [function(){
         "DEMO_LIST" : [
             {  
                 "ID":1, "TITLE": "CSS Eelement Rule (Internal CSS Style)", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/1.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/1.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day2/1.html`,
             },
             {  
                 "ID":2, "TITLE": "CSS Inline Style", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/2.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/2.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day2/2.html`,
             },
             {  
                 "ID":3, "TITLE": "CSS Property - height and border-radius", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/3.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/3.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/3.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day2/3.html`,
             },
 
             {  
                 "ID":4, "TITLE": "CSS Property - Overflow and scroll", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/4.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/4.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/4.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day2/4.html`,
             },
 
             {  
                 "ID":5, "TITLE": "CSS Flexbox - Vertical division[2] of screen.", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/5.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/5.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/5.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day2/5.html`,
             },
 
             {  
                 "ID":6, "TITLE": "CSS Flexbox - Horizontal and Vertical division[2] of screen.", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/6.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/6.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/6.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day2/6.html`,
             },
 
             {  
                 "ID":7, "TITLE": "CSS Flexbox - Horizontal and Vertical division [3] of screen", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/7.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/7.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/7.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day2/7.html`,
             },
 
             {  
                 "ID":8, "TITLE": "CSS Flexbox - justify-content, align-items property", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/8.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/8.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/8.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day2/8.html`,
             },
 
             {  
                 "ID":9, "TITLE": "CSS Flexbox - center align text", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/9.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/9.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/9.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day2/9.html`,
             },
 
             {  
                 "ID":10, "TITLE": "CSS Flexbox - center align image", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day2/10.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day2/10.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/10.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day2/10.html`,
             },
         ]
     };
@@ -275,32 +277,32 @@ appModule.service("DATA_SERVICE", [function(){
         "DEMO_LIST" : [
             {  
                 "ID":1, "TITLE": "Hello World", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day1/1.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day1/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/1.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day1/1.html`,
             },
 
             {  
                 "ID":2, "TITLE": "Heading Tags", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day1/3.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day1/3.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/3.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day1/3.html`,
             },
 
             {  
                 "ID":3, "TITLE": "Styling Heading Tags", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day1/4.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day1/4.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/4.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day1/4.html`,
             },
 
             {  
                 "ID":4, "TITLE": "Division Tag and CSS height property", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day1/5.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day1/5.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/5.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day1/5.html`,
             },
 
             {  
                 "ID":5, "TITLE": "Image tag", 
-                "DEMO_LINK" : `https://aug-18.github.io/dacdemo/day1/7.html`,
-                "SOURCE_LINK" : `https://github.com/aug-18/dacdemo/blob/master/day1/7.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/7.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day1/7.html`,
             },
         ]
     };
