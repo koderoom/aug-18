@@ -23,8 +23,8 @@
 
 <body ng-controller="spa">
     <!-- HEADER -->
-    <div class="container-fluid sticky-top">
-        <div class="row bg-dark" style="height:60px">
+    <div class="container-fluid sticky-top" style="height:60px">
+        <div class="row bg-dark h-100">
             <div class="col-8 make-left text-light textify-header">
                 {{title}}
             </div>
@@ -46,7 +46,7 @@
                         <h5 class="card-title" ng-hide="true">
                             {{iobj.HEADING}}
                         </h5>
-                        <p class="card-text h5" ng-bind-html="iobj.DESC | unsafe">
+                        <p class="card-text h5 text-justify" ng-bind-html="iobj.DESC | unsafe">
                         </p>
                     </div>
 
