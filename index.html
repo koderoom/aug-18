@@ -31,7 +31,7 @@
 
             <div class="col-2 text-light make-right">
                 <div class="btn-group" role="group" aria-label="Basic example">
-                    <button ng-repeat="iobj in bgList" type="button" class="btn btn-sm {{iobj.BG}}" ng-click="uilayout(iobj);">&nbsp;</button>
+                    <button ng-hide="iobj == bgRef" ng-repeat="iobj in bgList" type="button" class="btn btn-sm {{iobj.BG}}" ng-click="uilayout(iobj);">&nbsp;</button>
                 </div>
             </div>
         </div>
