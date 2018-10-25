@@ -22,6 +22,12 @@
     align-items: center;
 }
 
+.make-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .make-center{
     display: flex;
     justify-content: center;

@@ -24,9 +24,15 @@
 <body ng-controller="spa">
     <!-- HEADER -->
     <div class="container-fluid sticky-top">
-        <div class="row bg-dark" style="height:60px">
+        <div class="row" style="height:60px" ng-class="bgRef.BG">
             <div class="col-10 make-left text-light textify-header">
                 <a class="btn btn-dark" href="/"><i class="fas fa-bars fa-lg"></i></a> {{title}}
+            </div>
+
+            <div class="col-2 text-light make-right">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button ng-repeat="iobj in bgList" type="button" class="btn btn-sm {{iobj.BG}}" ng-click="uilayout(iobj);">&nbsp;</button>
+                </div>
             </div>
         </div>
     </div>
@@ -39,7 +45,7 @@
             <div class="col-12 col-sm-12 col-md-8 col-lg-6">
 
                 <div ng-repeat="iobj in CARD_LIST" class="card bg-light mb-2 shadow-sm" ng-class="{'animated fadeIn' : $first}">
-                    <h5 class="card-header bg-dark text-light">
+                    <h5 class="card-header text-light" ng-class="bgRef.BG">
                         {{iobj.TITLE}}
                     </h5>
                     <div class="card-body">
