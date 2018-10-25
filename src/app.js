@@ -7,7 +7,7 @@ app.filter('unsafe', ["$sce", function($sce) {
 app.controller("spa", ["$scope", "$sce", "DATA_SERVICE" , function($scope, $sce, DATA_SERVICE){
     $scope.title = "CDACIAN AUGUST";
 
-    $scope.bgList= [{"ID":1, "BG": "bg-primary"}, {"ID":2, "BG": "bg-danger"}, {"ID":3, "BG": "bg-dark"}];
+    $scope.bgList= [{"ID":1, "BG": "bg-primary", "BTN":"btn-primary"}, {"ID":2, "BG": "bg-danger", "BTN":"btn-danger"}, {"ID":3, "BG": "bg-dark", "BTN":"btn-dark"}];
     $scope.bgRef = $scope.bgList[2];
 
     $scope.CARD_LIST = DATA_SERVICE.CARD_LIST;
