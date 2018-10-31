@@ -11,7 +11,7 @@ appModule.service("DATA_SERVICE", [function(){
         "ID" : 9,
         "TITLE" : "DAY 9",
         "HEADING" : "Lets make website",
-        "DESC" : `Crate multiple html pages, and link using anchor tags. Navigation revision and debugging.`,
+        "DESC" : `Create multiple html pages, and link using anchor tags. Navigation revision and debugging.`,
 
         "DEMO_LIST" : [
             {  
@@ -22,6 +22,24 @@ appModule.service("DATA_SERVICE", [function(){
         ]
     };
     CARD_LIST.push(cardDay9);
+
+
+    // DAY - 8
+    const cardDay8 = {
+        "ID" : 8,
+        "TITLE" : "DAY 8",
+        "HEADING" : "lets chat",
+        "DESC" : `lets chat design layout and simulation`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "lets chat design layout and simulation", 
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day8/chat.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day8/chat.html`,
+            }
+        ]
+    };
+    CARD_LIST.push(cardDay8);
 
     // DAY - 7
     const cardDay7 = {
