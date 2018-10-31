@@ -21,7 +21,7 @@ appModule.service("DATA_SERVICE", [function(){
             }
         ]
     };
-    CARD_LIST.push(cardDay7);
+    CARD_LIST.push(cardDay9);
 
     // DAY - 7
     const cardDay7 = {
