@@ -6,6 +6,23 @@ appModule.service("DATA_SERVICE", [function(){
     const BASE_URL_SOURCE = `https://github.com/koderoom/aug-18-webdemo`;
     const CARD_LIST = [];
     
+    // DAY - 9
+    const cardDay9 = {
+        "ID" : 9,
+        "TITLE" : "DAY 9",
+        "HEADING" : "Lets make website",
+        "DESC" : `Crate multiple html pages, and link using anchor tags. Navigation revision and debugging.`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Static website with multiple pages", 
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day9/home.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day9/home.html`,
+            }
+        ]
+    };
+    CARD_LIST.push(cardDay7);
+
     // DAY - 7
     const cardDay7 = {
         "ID" : 7,
