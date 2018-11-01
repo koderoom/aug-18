@@ -6,6 +6,54 @@ appModule.service("DATA_SERVICE", [function(){
     const BASE_URL_SOURCE = `https://github.com/koderoom/aug-18-webdemo`;
     const CARD_LIST = [];
     
+    // DAY - 10
+    const cardDay10 = {
+        "ID" : 10,
+        "TITLE" : "DAY 10",
+        "HEADING" : "Advance Javascript",
+        "DESC" : `Advance Javascript`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Basic Javascript Functions", 
+                // "DEMO_LINK" : `${BASE_URL_DEMO}/day10/home.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day10/1.js`,
+            },
+
+            {  
+                "ID":2, "TITLE": "Annonymous Javascript Functions", 
+                // "DEMO_LINK" : `${BASE_URL_DEMO}/day10/home.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day10/2.js`,
+            },
+
+            {  
+                "ID":3, "TITLE": "Annonymous Javascript Functions - Callback", 
+                // "DEMO_LINK" : `${BASE_URL_DEMO}/day10/home.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day10/3.js`,
+            },
+
+            {  
+                "ID":4, "TITLE": "Javscript statment", 
+                // "DEMO_LINK" : `${BASE_URL_DEMO}/day10/home.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day10/4.js`,
+            },
+
+            {  
+                "ID":5, "TITLE": "Javscript Lamda Expression", 
+                // "DEMO_LINK" : `${BASE_URL_DEMO}/day10/home.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day10/5.js`,
+            },
+
+            {  
+                "ID":6, "TITLE": "Javscript Lamda Expression - Callback", 
+                // "DEMO_LINK" : `${BASE_URL_DEMO}/day10/home.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day10/6.js`,
+            }
+        ]
+    };
+    CARD_LIST.push(cardDay10);
+
+
     // DAY - 9
     const cardDay9 = {
         "ID" : 9,
