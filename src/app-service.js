@@ -6,6 +6,23 @@ appModule.service("DATA_SERVICE", [function(){
     const BASE_URL_SOURCE = `https://github.com/koderoom/aug-18-webdemo`;
     const CARD_LIST = [];
     
+    // DAY - 11
+    const cardDay11 = {
+        "ID" : 11,
+        "TITLE" : "DAY 11",
+        "HEADING" : "JSON, ARRAY AND HTTP",
+        "DESC" : `JSON, ARRAY AND HTTP`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "JSON ARRAY SIMULATION", 
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day11/home.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day11/home.js`,
+            },
+        ]
+    };
+    CARD_LIST.push(cardDay11);
+
     // DAY - 10
     const cardDay10 = {
         "ID" : 10,
