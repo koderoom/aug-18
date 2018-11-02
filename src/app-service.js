@@ -17,7 +17,7 @@ appModule.service("DATA_SERVICE", [function(){
             {  
                 "ID":1, "TITLE": "JSON ARRAY SIMULATION", 
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day11/home.html`,
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day11/home.js`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day11/home.html`,
             },
         ]
     };
