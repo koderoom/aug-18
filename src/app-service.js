@@ -6,6 +6,23 @@ appModule.service("DATA_SERVICE", [function(){
     const BASE_URL_SOURCE = `https://github.com/koderoom/aug-18-webdemo`;
     const CARD_LIST = [];
     
+    // DAY - 12
+    const cardDay12 = {
+        "ID" : 12,
+        "TITLE" : "DAY 12",
+        "HEADING" : "Ajax Request, Lets make weather Application",
+        "DESC" : `Ajax Request, Lets make weather Application`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Ajax Request, Lets make weather Application", 
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day12/1.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day12/1.html`,
+            },
+        ]
+    };
+    CARD_LIST.push(cardDay12);
+
     // DAY - 11
     const cardDay11 = {
         "ID" : 11,
