@@ -11,11 +11,14 @@
     <title>AUG 18 HOME</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./node_modules/animate.css/animate.css">
     <link rel="stylesheet" href="./src/style.css">
-
+    
     <script src="./node_modules/angular/angular.min.js"></script>
     <script src="./src/app.js"></script>
     <script src="./src/app-service.js"></script>
@@ -24,7 +27,7 @@
 <body ng-controller="spa">
     <!-- HEADER -->
     <div class="container-fluid sticky-top">
-        <div class="row" style="height:60px" ng-class="bgRef.BG">
+        <div class="row" style="height:3.5rem" ng-class="bgRef.BG">
             <div class="col-10 make-left text-light textify-header">
                 <a class="btn" href="/" ng-class="bgRef.BTN"><i class="fas fa-bars fa-lg"></i></a> {{title}}
             </div>
@@ -42,6 +45,29 @@
     <div class="conainer-fluid">
 
         <div class="row justify-content-center">
+            <div class="col-md-2 col-lg-3" style=" position: sticky; top:3.5rem;">
+                <button class="btn btn-lg btn-block d-md-none text-light" ng-class="bgRef.BG" type="button" data-toggle="collapse" data-target="#sidenav" aria-controls="sidenav" aria-expanded="false" aria-label="Toggle docs navigation">
+                    Featured Simulations
+                </button>
+        
+                <nav class="collapse d-md-block" id="sidenav">
+                    <ul class="nav flex-column" style="font-size:large;">
+                        <li class="nav-item">
+                            <a class="nav-link text-muted active" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
             <div class="col-12 col-sm-12 col-md-8 col-lg-6">
 
                 <div id="day{{iobj.ID}}" ng-repeat="iobj in CARD_LIST" class="card bg-light mb-2 shadow-sm" ng-class="{'animated fadeIn' : $first}">
@@ -70,6 +96,10 @@
                 </div>
 
             </div>
+
+            <div class="col-md-2 col-lg-3">
+            </div>
+    
         </div>
 
     </div>
