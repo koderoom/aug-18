@@ -5,6 +5,7 @@ appModule.service("DATA_SERVICE", [function(){
     const BASE_URL_DEMO = `https://koderoom.github.io/aug-18-webdemo`;
     const BASE_URL_SOURCE = `https://github.com/koderoom/aug-18-webdemo`;
     const CARD_LIST = [];
+    const FEATURED_LIST = [];
     
     // DAY - 12
     const cardDay12 = {
@@ -428,4 +429,30 @@ appModule.service("DATA_SERVICE", [function(){
 
     this.CARD_LIST = CARD_LIST;
 
+
+
+    /** FEATURED LIST */
+    const featured3= {
+        "ID" : 3,
+        "TITLE" : "Weather App",
+        "DEMO_LINK" : `${BASE_URL_DEMO}/day12/1.html`
+    };
+    FEATURED_LIST.push(featured3);
+
+    const featured1= {
+        "ID" : 1,
+        "TITLE" : "CHAT Simulation",
+        "DEMO_LINK" : `${BASE_URL_DEMO}/day8/chat.html`
+    };
+    FEATURED_LIST.push(featured1);
+
+
+    const featured2= {
+        "ID" : 2,
+        "TITLE" : "CHAT with Emojis",
+        "DEMO_LINK" : `${BASE_URL_DEMO}/day8/chat-with-emojis.html`
+    };
+    FEATURED_LIST.push(featured2);
+
+    this.FEATURED_LIST = FEATURED_LIST;
 }]);

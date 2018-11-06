@@ -17,6 +17,8 @@ app.controller("spa", ["$scope", "$sce", "DATA_SERVICE" , function($scope, $sce,
 
         // CARD DATA
         $scope.CARD_LIST = DATA_SERVICE.CARD_LIST;
+
+        $scope.FEATURED_LIST = DATA_SERVICE.FEATURED_LIST;
     })();
 
     
