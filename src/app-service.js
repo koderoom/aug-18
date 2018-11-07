@@ -432,12 +432,26 @@ appModule.service("DATA_SERVICE", [function(){
 
 
     /** FEATURED LIST */
+    const featured4= {
+        "ID" : 3,
+        "TITLE" : "Weather App Extended",
+        "DEMO_LINK" : `${BASE_URL_DEMO}/featured/weather-app.html`
+    };
+    FEATURED_LIST.push(featured4);
+
     const featured3= {
         "ID" : 3,
         "TITLE" : "Weather App",
         "DEMO_LINK" : `${BASE_URL_DEMO}/day12/1.html`
     };
     FEATURED_LIST.push(featured3);
+
+    const featured2= {
+        "ID" : 2,
+        "TITLE" : "Web whatsapp simulation",
+        "DEMO_LINK" : `${BASE_URL_DEMO}/day8/chat-with-emojis.html`
+    };
+    FEATURED_LIST.push(featured2);
 
     const featured1= {
         "ID" : 1,
@@ -446,13 +460,6 @@ appModule.service("DATA_SERVICE", [function(){
     };
     FEATURED_LIST.push(featured1);
 
-
-    const featured2= {
-        "ID" : 2,
-        "TITLE" : "Web whatsapp simulation",
-        "DEMO_LINK" : `${BASE_URL_DEMO}/day8/chat-with-emojis.html`
-    };
-    FEATURED_LIST.push(featured2);
 
     this.FEATURED_LIST = FEATURED_LIST;
 }]);
