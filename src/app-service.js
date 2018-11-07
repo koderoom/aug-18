@@ -441,7 +441,7 @@ appModule.service("DATA_SERVICE", [function(){
 
     const featured1= {
         "ID" : 1,
-        "TITLE" : "CHAT Simulation",
+        "TITLE" : "Chat Simulation",
         "DEMO_LINK" : `${BASE_URL_DEMO}/day8/chat.html`
     };
     FEATURED_LIST.push(featured1);
@@ -449,7 +449,7 @@ appModule.service("DATA_SERVICE", [function(){
 
     const featured2= {
         "ID" : 2,
-        "TITLE" : "CHAT with Emojis",
+        "TITLE" : "Web whatsapp simulation",
         "DEMO_LINK" : `${BASE_URL_DEMO}/day8/chat-with-emojis.html`
     };
     FEATURED_LIST.push(featured2);
