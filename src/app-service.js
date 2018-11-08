@@ -435,6 +435,7 @@ appModule.service("DATA_SERVICE", [function(){
     const featured4= {
         "ID" : 3,
         "TITLE" : "Weather App Extended",
+        "SHOW" : true,
         "DEMO_LINK" : `${BASE_URL_DEMO}/featured/weather-app.html`
     };
     FEATURED_LIST.push(featured4);
@@ -442,6 +443,7 @@ appModule.service("DATA_SERVICE", [function(){
     const featured3= {
         "ID" : 3,
         "TITLE" : "Weather App",
+        "SHOW" : true,
         "DEMO_LINK" : `${BASE_URL_DEMO}/day12/1.html`
     };
     FEATURED_LIST.push(featured3);
@@ -449,6 +451,7 @@ appModule.service("DATA_SERVICE", [function(){
     const featured2= {
         "ID" : 2,
         "TITLE" : "Web whatsapp simulation",
+        "SHOW" : true,
         "DEMO_LINK" : `${BASE_URL_DEMO}/day8/chat-with-emojis.html`
     };
     FEATURED_LIST.push(featured2);
@@ -456,6 +459,7 @@ appModule.service("DATA_SERVICE", [function(){
     const featured1= {
         "ID" : 1,
         "TITLE" : "Chat Simulation",
+        "SHOW" : true,
         "DEMO_LINK" : `${BASE_URL_DEMO}/day8/chat.html`
     };
     FEATURED_LIST.push(featured1);
@@ -463,6 +467,7 @@ appModule.service("DATA_SERVICE", [function(){
     const featured5= {
         "ID" : 5,
         "TITLE" : "Project Static Website",
+        "SHOW" : true,
         "DEMO_LINK" : `${BASE_URL_DEMO}/day11/home.html`
     };
     FEATURED_LIST.push(featured5);

@@ -55,7 +55,7 @@
                             Featured Demo <span class="badge badge-light">DOM BASED</span>
                     </button>
                     <ul class="nav flex-column " style="font-size:small;">
-                        <li class="nav-item " ng-repeat="iref in FEATURED_LIST">
+                        <li class="nav-item " ng-show="iref.SHOW" ng-repeat="iref in FEATURED_LIST">
                             <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{iref.DEMO_LINK}}">{{iref.TITLE}}</a>
                         </li>
                     </ul>
