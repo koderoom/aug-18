@@ -11,12 +11,12 @@ appModule.service("DATA_SERVICE", [function(){
     const cardDay12 = {
         "ID" : 12,
         "TITLE" : "DAY 12",
-        "HEADING" : "Ajax Request, Lets make weather Application",
-        "DESC" : `Ajax Request, Lets make weather Application`,
+        "HEADING" : "Ajax Request, Lets make Weather Application",
+        "DESC" : `Ajax Request, Lets make Weather Application`,
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "Ajax Request, Lets make weather Application", 
+                "ID":1, "TITLE": "Ajax Request, Lets make Weather Application", 
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day12/1.html`,
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day12/1.html`,
             },
@@ -28,12 +28,12 @@ appModule.service("DATA_SERVICE", [function(){
     const cardDay11 = {
         "ID" : 11,
         "TITLE" : "DAY 11",
-        "HEADING" : "JSON, ARRAY AND HTTP",
-        "DESC" : `JSON, ARRAY AND HTTP`,
+        "HEADING" : `Lets add Home page to static website.`,
+        "DESC" : `Lets add Home page to static website.`,
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "JSON ARRAY SIMULATION", 
+                "ID":1, "TITLE": "Lets add Home page to static website.", 
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day11/home.html`,
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day11/home.html`,
             },
@@ -459,6 +459,13 @@ appModule.service("DATA_SERVICE", [function(){
         "DEMO_LINK" : `${BASE_URL_DEMO}/day8/chat.html`
     };
     FEATURED_LIST.push(featured1);
+
+    const featured5= {
+        "ID" : 5,
+        "TITLE" : "Project Static Website",
+        "DEMO_LINK" : `${BASE_URL_DEMO}/day11/home.html`
+    };
+    FEATURED_LIST.push(featured5);
 
 
     this.FEATURED_LIST = FEATURED_LIST;
