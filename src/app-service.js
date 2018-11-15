@@ -6,6 +6,25 @@ appModule.service("DATA_SERVICE", [function(){
     const BASE_URL_SOURCE = `https://github.com/koderoom/aug-18-webdemo`;
     const CARD_LIST = [];
     const FEATURED_LIST = [];
+
+
+    // DAY - 15
+    const cardDay15 = {
+        "ID" : 15,
+        "TITLE" : "DAY 15",
+        "HEADING" : "Hello Angular Concept, Setup and Simulation",
+        "DESC" : `Hello Angular Concept, Setup and Simulation`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Hello Angular Concept, Setup and Simulation", 
+                "DEMO_LINK" : `https://koderoom.github.io/hello-angular/`,
+                "SOURCE_LINK" : `https://github.com/koderoom/hello-angular/tree/master/src/app`,
+            },
+        ]
+    };
+    CARD_LIST.push(cardDay15);
+
     
     // DAY - 12
     const cardDay12 = {
