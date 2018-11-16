@@ -47,11 +47,20 @@
         <div class="row justify-content-center">
             <div class="col-md-2 col-lg-3 d-flex flex-column align-items-center" style="max-height: calc(100vh - 3.5rem); z-index:999; position: sticky; top:3.5rem; overflow-y: scroll;">
                 <button class="btn btn-lg btn-block d-md-none text-light" ng-class="bgRef.BG" type="button" data-toggle="collapse" data-target="#sidenav" aria-controls="sidenav" aria-expanded="false" aria-label="Toggle docs navigation">
-                    Featured Simulations <span class="badge badge-light">DOM BASED</span>
+                    Featured Simulations
                 </button>
         
                 <nav class="collapse d-md-block mt-1" id="sidenav" >
                     <button type="button" class="btn btn-sm text-light d-none d-md-block" ng-class="bgRef.BG" style="opacity:.9;">
+                            Featured Demo <span class="badge badge-light">Angular BASED</span>
+                    </button>
+                    <ul class="nav flex-column " style="font-size:small;">
+                        <li class="nav-item " ng-show="iref.SHOW" ng-repeat="iref in FEATURED_ANGULAR_LIST">
+                            <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{iref.DEMO_LINK}}">{{iref.TITLE}}</a>
+                        </li>
+                    </ul>
+
+                    <button type="button" class="btn btn-sm text-light d-none d-md-block mt-2" ng-class="bgRef.BG" style="opacity:.9;">
                             Featured Demo <span class="badge badge-light">DOM BASED</span>
                     </button>
                     <ul class="nav flex-column " style="font-size:small;">

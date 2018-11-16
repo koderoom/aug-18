@@ -6,6 +6,7 @@ appModule.service("DATA_SERVICE", [function(){
     const BASE_URL_SOURCE = `https://github.com/koderoom/aug-18-webdemo`;
     const CARD_LIST = [];
     const FEATURED_LIST = [];
+    const FEATURED_ANGULAR_LIST = [];
 
 
     // DAY - 16
@@ -510,4 +511,17 @@ appModule.service("DATA_SERVICE", [function(){
 
 
     this.FEATURED_LIST = FEATURED_LIST;
+
+
+    /** FEATURE LIST ANGULAR */
+    const featuredAngular1= {
+        "ID" : 5,
+        "TITLE" : "SPA using Angular",
+        "SHOW" : true,
+        "DEMO_LINK" : `https://koderoom.github.io/hello-angular/`
+    };
+    FEATURED_ANGULAR_LIST.push(featuredAngular1);
+
+
+    this.FEATURED_ANGULAR_LIST = FEATURED_ANGULAR_LIST;
 }]);
