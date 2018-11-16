@@ -8,6 +8,23 @@ appModule.service("DATA_SERVICE", [function(){
     const FEATURED_LIST = [];
 
 
+    // DAY - 16
+    const cardDay16 = {
+        "ID" : 16,
+        "TITLE" : "DAY 16",
+        "HEADING" : "Single Page Application with Angular",
+        "DESC" : `Single Page Application with Angular`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Single Page Application with Angular", 
+                "DEMO_LINK" : `https://koderoom.github.io/hello-angular/`,
+                "SOURCE_LINK" : `https://github.com/koderoom/hello-angular/tree/master/src/app`,
+            },
+        ]
+    };
+    CARD_LIST.push(cardDay16);
+
     // DAY - 15
     const cardDay15 = {
         "ID" : 15,
