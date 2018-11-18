@@ -59,11 +59,11 @@
         <div class="col-md-2 col-lg-3 d-flex flex-column align-items-center" style="max-height: calc(100vh - 3.5rem); z-index:999; position: sticky; top:3.5rem; overflow-y: scroll;">
             <nav class="collapse d-md-block mt-1" id="sidenav2" >
                 <button type="button" class="btn btn-sm text-light d-none d-md-block" ng-class="bgRef.BG" style="opacity:.9;">
-                        TOP SCORERER <span class="badge badge-light">B-2</span>
+                        TOP SCORERER <span class="badge badge-light">B-2</span> 
                 </button>
                 <ul class="nav flex-column " style="font-size:small;">
-                    <li class="nav-item " ng-show="iref.SHOW" ng-repeat="iref in FEATURED_ANGULAR_LIST">
-                        <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{iref.DEMO_LINK}}">{{iref.TITLE}}</a>
+                    <li class="nav-item " ng-show="iref.show" ng-repeat="iref in B2LIST">
+                        <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{BASE_URL_DEMO + iref.rollid}}">{{iref.rollid}}</a>
                     </li>
                 </ul>
             </nav>

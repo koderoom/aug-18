@@ -60,7 +60,9 @@ app.controller("dacexam", ["$scope", "$sce", "DATA_SERVICE", "DATA_SERVICE_EXAM"
         $scope.bgRef = bgList[randomIndex];
 
         // CARD DATA
+        $scope.BASE_URL_DEMO = DATA_SERVICE_EXAM.BASE_URL_DEMO;
         $scope.EXAM_LIST = DATA_SERVICE_EXAM.EXAM_LIST;
+        $scope.B2LIST = DATA_SERVICE_EXAM.B2LIST;
     })();
 
     

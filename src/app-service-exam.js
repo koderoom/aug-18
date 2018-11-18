@@ -2,8 +2,8 @@ var appModule=angular.module("app");
 
 appModule.service("DATA_SERVICE_EXAM", [function(){
 
-    const BASE_URL_DEMO = `https://dacexam.github.io/`;
-    const BASE_URL_SOURCE = `https://github.com/dacexam/`;
+    this.BASE_URL_DEMO = `https://dacexam.github.io/`;
+    this.BASE_URL_SOURCE = `https://github.com/dacexam/`;
     
     const IDLIST = [
         {"id":1,"rollid":"180840320001","show":false},
@@ -139,9 +139,14 @@ appModule.service("DATA_SERVICE_EXAM", [function(){
     
     IDLIST.forEach((item)=>{
 
-        item["demo_link"] = `${BASE_URL_DEMO}${item.rollid}`;
-        item["source_link"] = `${BASE_URL_SOURCE}${item.rollid}`;
+        item["demo_link"] = `${this.BASE_URL_DEMO}${item.rollid}`;
+        item["source_link"] = `${this.BASE_URL_SOURCE}${item.rollid}`;
     });
+
+
+    this.B2LIST = [
+        {"id":20,"rollid":"180840320020","show":true},
+    ];
 
 
     this.EXAM_LIST = IDLIST;
