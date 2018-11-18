@@ -147,6 +147,7 @@ appModule.service("DATA_SERVICE_EXAM", [function(){
     this.B2LIST = [
         {"id":20,"rollid":"180840320020","show":true},
         {"id":100,"rollid":"180840320100","show":true},
+        {"id":20,"rollid":"180840320026","show":true},
     ];
 
 
