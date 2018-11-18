@@ -31,7 +31,7 @@
                         Featured Demo <span class="badge badge-light">Angular BASED</span>
                 </button>
                 <ul class="nav flex-column " style="font-size:small;">
-                    <li class="nav-item " ng-show="iref.SHOW" ng-repeat="iref in FEATURED_ANGULAR_LIST">
+                    <li class="nav-item animated pulse  slow" ng-show="iref.SHOW" ng-repeat="iref in FEATURED_ANGULAR_LIST">
                         <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{iref.DEMO_LINK}}">{{iref.TITLE}}</a>
                     </li>
                 </ul>
@@ -40,7 +40,7 @@
                         Featured Demo <span class="badge badge-light">DOM BASED</span>
                 </button>
                 <ul class="nav flex-column " style="font-size:small;">
-                    <li class="nav-item " ng-show="iref.SHOW" ng-repeat="iref in FEATURED_LIST">
+                    <li class="nav-item animated pulse   slow" ng-show="iref.SHOW" ng-repeat="iref in FEATURED_LIST">
                         <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{iref.DEMO_LINK}}">{{iref.TITLE}}</a>
                     </li>
                 </ul>
@@ -82,7 +82,7 @@
                         TOP PERFORMER 
                 </button>
                 <ul class="nav flex-column " style="font-size:small;">
-                    <li class="nav-item " ng-show="iref.show" ng-repeat="iref in B2LIST">
+                    <li class="nav-item animated zoomIn infinite slower" ng-show="iref.show" ng-repeat="iref in B2LIST">
                         <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{BASE_URL_DEMO + iref.rollid}}">{{iref.rollid}}</a>
                     </li>
                 </ul>
