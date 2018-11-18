@@ -1,10 +1,25 @@
-const app=angular.module("app", []);
+const app=angular.module("app", ['ngRoute']);
+
+app.config(['$routeProvider', function($routeProvider){
+    $routeProvider.
+        when('/', {
+            "templateUrl": 'home.html',
+            "controller" : "home"
+        }).
+        
+        when('/dacexam/', {
+            templateUrl: 'dacexam.html',
+            "controller" : "dacexam"
+        }).
+        
+        otherwise('/');
+}]);
 
 app.filter('unsafe', ["$sce", function($sce) { 
     return $sce.trustAsHtml; 
 }]);
 
-app.controller("spa", ["$scope", "$sce", "DATA_SERVICE" , function($scope, $sce, DATA_SERVICE){
+app.controller("home", ["$scope", "$sce", "DATA_SERVICE" , function($scope, $sce, DATA_SERVICE){
     let title = "AUGUST-18";
     let bgList= [{"ID":1, "BG": "bg-primary", "BTN":"btn-primary"}, {"ID":2, "BG": "bg-danger", "BTN":"btn-danger"}, {"ID":3, "BG": "bg-dark", "BTN":"btn-dark"}, {"ID":3, "BG": "bg-info", "BTN":"btn-info"}];
     let randomIndex = Math.floor((Math.random() * 4));
