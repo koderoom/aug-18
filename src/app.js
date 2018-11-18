@@ -19,7 +19,7 @@ app.filter('unsafe', ["$sce", function($sce) {
     return $sce.trustAsHtml; 
 }]);
 
-app.controller("home", ["$scope", "$sce", "DATA_SERVICE" , function($scope, $sce, DATA_SERVICE){
+app.controller("home", ["$scope", "$sce", "DATA_SERVICE", "DATA_SERVICE_EXAM" , function($scope, $sce, DATA_SERVICE, DATA_SERVICE_EXAM){
     let title = "AUG-18";
     let bgList= [{"ID":1, "BG": "bg-primary", "BTN":"btn-primary"}, {"ID":2, "BG": "bg-danger", "BTN":"btn-danger"}, {"ID":3, "BG": "bg-dark", "BTN":"btn-dark"}, {"ID":3, "BG": "bg-info", "BTN":"btn-info"}];
     let randomIndex = Math.floor((Math.random() * 4));
@@ -36,6 +36,12 @@ app.controller("home", ["$scope", "$sce", "DATA_SERVICE" , function($scope, $sce
         $scope.FEATURED_LIST = DATA_SERVICE.FEATURED_LIST;
 
         $scope.FEATURED_ANGULAR_LIST = DATA_SERVICE.FEATURED_ANGULAR_LIST;
+
+
+        // EXAM
+        $scope.BASE_URL_DEMO = DATA_SERVICE_EXAM.BASE_URL_DEMO;
+        $scope.EXAM_LIST = DATA_SERVICE_EXAM.EXAM_LIST;
+        $scope.B2LIST = DATA_SERVICE_EXAM.B2LIST;
     })();
 
     
