@@ -33,7 +33,7 @@
 
         <div class="col-12 col-sm-12 col-md-8 col-lg-6">
 
-            <div id="day{{iobj.ID}}" ng-repeat="iobj in EXAM_LIST" class="card bg-light mb-2 shadow-sm" ng-class="{'animated fadeIn' : $first}">
+            <div id="day{{iobj.id}}" ng-if="iobj.show" ng-repeat="iobj in EXAM_LIST" class="card bg-light mb-2 shadow-sm" ng-class="{'animated fadeIn' : $first}">
                 <h5 class="card-header text-light" ng-class="bgRef.BG">
                     {{iobj.rollid}}
                 </h5>
