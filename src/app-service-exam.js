@@ -149,6 +149,7 @@ appModule.service("DATA_SERVICE_EXAM", [function(){
         {"id":100,"rollid":"180840320100","show":true},
         {"id":20,"rollid":"180840320026","show":true},
         {"id":63,"rollid":"180840320063","show":true},
+        {"id":46,"rollid":"180840320046","show":true},
     ];
 
 
