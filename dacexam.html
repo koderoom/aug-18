@@ -1,1 +1,68 @@
-DACEXAM
+<!-- HEADER -->
+<div class="container-fluid sticky-top">
+    <div class="row" style="height:3.5rem" ng-class="bgRef.BG">
+        <div class="col-10 make-left text-light ">
+            <a class="btn textify-header" href="/" ng-class="bgRef.BTN">{{title}}</a> 
+        </div>
+
+        <div class="col-2 text-light make-right">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button ng-hide="iobj == bgRef" ng-repeat="iobj in bgList" type="button" class="btn btn-sm {{iobj.BG}}" ng-click="uilayout(iobj);">&nbsp;</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--BLOCKS-->
+<div class="conainer-fluid">
+
+    <div class="row justify-content-center">
+        <div class="col-md-2 col-lg-3 d-flex flex-column align-items-center" style="max-height: calc(100vh - 3.5rem); z-index:999; position: sticky; top:3.5rem; overflow-y: scroll;">
+            <nav class="collapse d-md-block mt-1" id="sidenav" >
+                <button type="button" class="btn btn-sm text-light d-none d-md-block" ng-class="bgRef.BG" style="opacity:.9;">
+                        TOP SCORERER <span class="badge badge-light">BATCH 1</span>
+                </button>
+                <ul class="nav flex-column " style="font-size:small;">
+                    <li class="nav-item " ng-show="iref.SHOW" ng-repeat="iref in FEATURED_ANGULAR_LIST">
+                        <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{iref.DEMO_LINK}}">{{iref.TITLE}}</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-8 col-lg-6">
+
+            <div id="day{{iobj.ID}}" ng-repeat="iobj in EXAM_LIST" class="card bg-light mb-2 shadow-sm" ng-class="{'animated fadeIn' : $first}">
+                <h5 class="card-header text-light" ng-class="bgRef.BG">
+                    {{iobj.rollid}}
+                </h5>
+                <div class="card-body">
+                    <h5 class="card-title" ng-hide="true">
+                        {{iobj.rollid}}
+                    </h5>
+                    <p class="card-text  text-justify" ng-hide="true" ng-bind-html="iobj.rollid | unsafe">
+                    </p>
+                </div>
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                        <a target="_blank" href="{{iobj.demo_link}}" class="list-link">
+                            <span ng-bind-html="iobj.rollid | unsafe"></span>
+                        </a> 
+                        <span class="d-flex justify-content-end align-items-center">
+                            <a target="_blank" href="{{iobj.source_link}}" class="badge badge-info badge-pill mr-1">Source</a>
+                            <a ng-show="true"  target="_blank" href="{{iobj.demo_link}}" class="badge badge-primary badge-pill">Demo</a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="col-md-2 col-lg-3">
+        </div>
+
+    </div>
+
+</div>
