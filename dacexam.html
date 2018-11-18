@@ -1,11 +1,14 @@
 <!-- HEADER -->
 <div class="container-fluid sticky-top">
     <div class="row" style="height:3.5rem" ng-class="bgRef.BG">
-        <div class="col-10 make-left text-light ">
+        <div class="col-8 make-left text-light ">
             <a class="btn textify-header" href="/" ng-class="bgRef.BTN">{{title}}</a> 
         </div>
 
-        <div class="col-2 text-light make-right">
+        <div class="col-4 text-light make-right">
+            <a role="button" class="btn " ng-class="bgRef.BTN" href="#!home">
+                Home 
+            </a>
             <div class="btn-group" role="group" aria-label="Basic example">
                 <button ng-hide="iobj == bgRef" ng-repeat="iobj in bgList" type="button" class="btn btn-sm {{iobj.BG}}" ng-click="uilayout(iobj);">&nbsp;</button>
             </div>
@@ -21,7 +24,7 @@
         <div class="col-md-2 col-lg-3 d-flex flex-column align-items-center" style="max-height: calc(100vh - 3.5rem); z-index:999; position: sticky; top:3.5rem; overflow-y: scroll;">
             <nav class="collapse d-md-block mt-1" id="sidenav" >
                 <button type="button" class="btn btn-sm text-light d-none d-md-block" ng-class="bgRef.BG" style="opacity:.9;">
-                        TOP SCORERER <span class="badge badge-light">BATCH 1</span>
+                        TOP SCORERER <span class="badge badge-light">B-1</span>
                 </button>
                 <ul class="nav flex-column " style="font-size:small;">
                     <li class="nav-item " ng-show="iref.SHOW" ng-repeat="iref in FEATURED_ANGULAR_LIST">

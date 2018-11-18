@@ -1,11 +1,14 @@
 <!-- HEADER -->
 <div class="container-fluid sticky-top">
     <div class="row" style="height:3.5rem" ng-class="bgRef.BG">
-        <div class="col-10 make-left text-light ">
+        <div class="col-8 make-left text-light ">
             <a class="btn textify-header" href="/" ng-class="bgRef.BTN">{{title}}</a> 
         </div>
 
-        <div class="col-2 text-light make-right">
+        <div class="col-4 text-light make-right">
+            <a role="button" class="btn " ng-class="bgRef.BTN" href="#!dacexam">
+                Exam 
+            </a>
             <div class="btn-group" role="group" aria-label="Basic example">
                 <button ng-hide="iobj == bgRef" ng-repeat="iobj in bgList" type="button" class="btn btn-sm {{iobj.BG}}" ng-click="uilayout(iobj);">&nbsp;</button>
             </div>
