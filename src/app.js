@@ -20,7 +20,7 @@ app.filter('unsafe', ["$sce", function($sce) {
 }]);
 
 app.controller("home", ["$scope", "$sce", "DATA_SERVICE" , function($scope, $sce, DATA_SERVICE){
-    let title = "AUGUST-18";
+    let title = "AUG-18";
     let bgList= [{"ID":1, "BG": "bg-primary", "BTN":"btn-primary"}, {"ID":2, "BG": "bg-danger", "BTN":"btn-danger"}, {"ID":3, "BG": "bg-dark", "BTN":"btn-dark"}, {"ID":3, "BG": "bg-info", "BTN":"btn-info"}];
     let randomIndex = Math.floor((Math.random() * 4));
 
@@ -49,7 +49,7 @@ app.controller("home", ["$scope", "$sce", "DATA_SERVICE" , function($scope, $sce
 
 
 app.controller("dacexam", ["$scope", "$sce", "DATA_SERVICE", "DATA_SERVICE_EXAM" , function($scope, $sce, DATA_SERVICE, DATA_SERVICE_EXAM){
-    let title = "AUGUST-18";
+    let title = "AUG-18";
     let bgList= [{"ID":1, "BG": "bg-primary", "BTN":"btn-primary"}, {"ID":2, "BG": "bg-danger", "BTN":"btn-danger"}, {"ID":3, "BG": "bg-dark", "BTN":"btn-dark"}, {"ID":3, "BG": "bg-info", "BTN":"btn-info"}];
     let randomIndex = Math.floor((Math.random() * 4));
 
