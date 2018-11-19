@@ -1,29 +1,42 @@
-node_modules/*
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-!node_modules/bootstrap
-node_modules/bootstrap/*
-!node_modules/bootstrap/dist
+# compiled output
+/dist
+/tmp
+/out-tsc
 
-!node_modules/jquery
-node_modules/jquery/*
-!node_modules/jquery/dist
+# dependencies
+/node_modules
 
-!node_modules/animate.css
-node_modules/animate.css/*
-!node_modules/animate.css/animate.css
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-!node_modules/angular
-node_modules/angular/*
-!node_modules/angular/angular.min.js
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
-!node_modules/angular-route
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
 
-!node_modules/@fortawesome
-node_modules/@fortawesome/*
-!node_modules/@fortawesome/fontawesome-free
-node_modules/@fortawesome/fontawesome-free/*
-!node_modules/@fortawesome/fontawesome-free/css
-!node_modules/@fortawesome/fontawesome-free/webfonts
+# System Files
+.DS_Store
+Thumbs.db
 
-bin
-output
+
+master-old

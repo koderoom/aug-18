@@ -1,72 +1,27 @@
-## PUBLISH
-* Download src.zip
-* Replace source folder
-* Create Repository At Github.
-* Push to github.
-* Github pages.
-* Update Aug Home
+# Aug18Home1
 
-git remote set-url origin https://github.com/dacexam/180840320125.git
-git push -u origin master
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
 
+## Development server
 
-ng build --prod --base-href "https://dacexam.github.io/180840320125/"
-npx ngh --dir=dist/aug-exam
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-https://dacexam.github.io/180840320125/
-https://dacexam.github.io/180840320105/
-https://dacexam.github.io/180840320107/
-https://dacexam.github.io/180840320122/
-https://dacexam.github.io/180840320017/
-https://dacexam.github.io/180840320083/
-https://dacexam.github.io/180840320013/
-https://dacexam.github.io/180840320060/
-https://dacexam.github.io/180840320064/
-https://dacexam.github.io/180840320104/
-https://dacexam.github.io/180840320021/
-https://dacexam.github.io/180840320121/
-https://dacexam.github.io/180840320029/
-https://dacexam.github.io/180840320056/
-https://dacexam.github.io/180840320054/
-https://dacexam.github.io/180840320114/
-https://dacexam.github.io/180840320097/
-https://dacexam.github.io/180840320068/
-https://dacexam.github.io/180840320127/
-https://dacexam.github.io/180840320034/
-https://dacexam.github.io/180840320006/
-https://dacexam.github.io/180840320043/
-https://dacexam.github.io/180840320036/
-https://dacexam.github.io/180840320038/
-https://dacexam.github.io/180840320030/
-https://dacexam.github.io/180840320116/
-https://dacexam.github.io/180840320080/
-https://dacexam.github.io/180840320063/
-https://dacexam.github.io/180840320106/
-https://dacexam.github.io/180840320045/
-https://dacexam.github.io/180840320126/
-https://dacexam.github.io/180840320065/
-https://dacexam.github.io/180840320003/
-https://dacexam.github.io/180840320090/
-https://dacexam.github.io/180840320031/
-https://dacexam.github.io/180840320046/
-https://dacexam.github.io/180840320015/
-https://dacexam.github.io/180840320039/
-https://dacexam.github.io/180840320098/
-https://dacexam.github.io/180840320009/
-https://dacexam.github.io/180840320007/
-https://dacexam.github.io/180840320101/
-https://dacexam.github.io/180840320092/
-https://dacexam.github.io/180840320020/
-https://dacexam.github.io/180840320091/
-https://dacexam.github.io/180840320058/
-https://dacexam.github.io/180840320120/
-https://dacexam.github.io/180840320050/
-https://dacexam.github.io/180840320089/
-https://dacexam.github.io/180840320100/
-https://dacexam.github.io/180840320109/
-https://dacexam.github.io/180840320014/
-https://dacexam.github.io/180840320018/
-https://dacexam.github.io/180840320048/
-https://dacexam.github.io/180840320026/
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
