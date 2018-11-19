@@ -91,9 +91,11 @@
                       TOP PERFORMER 
               </button>
               <ul class="nav flex-column " style="font-size:small;">
-                  <li class="nav-item animated zoomIn infinite slower" *ngFor="let iref of TOPLIST">
-                      <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{BASE_URL_DEMO + iref.rollid}}">{{iref.rollid}}</a>
-                  </li>
+                  <ng-container *ngFor="let iref of TOPLIST">
+                      <li *ngIf="iref.show" class="nav-item animated zoomIn infinite slower" >
+                          <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{BASE_URL_DEMO + iref.rollid}}">{{iref.rollid}}</a>
+                      </li>
+                  </ng-container>
               </ul>
           </nav>
       </div>
