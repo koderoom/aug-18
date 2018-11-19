@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../common/data.service';
+import { DataexamService } from 'src/app/common/dataexam.service';
 
 @Component({
   selector: 'app-home',
@@ -9,8 +10,11 @@ import { DataService } from '../common/data.service';
 export class HomeComponent {
 
   constructor(
-    data: DataService
-  ) { }
+    data: DataService,
+    dataexam: DataexamService
+  ) { 
+    console.log(dataexam.EXAM_LIST);
+  }
 
   
 
