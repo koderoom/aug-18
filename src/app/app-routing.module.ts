@@ -8,6 +8,12 @@ const routes: Routes = [];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
-  declarations: [HomeComponent, DacexamComponent]
+  declarations: []
 })
 export class AppRoutingModule { }
+
+
+export const AppRoutingComponents = [
+  HomeComponent,
+  DacexamComponent
+];
