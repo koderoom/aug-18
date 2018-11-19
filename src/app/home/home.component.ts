@@ -7,7 +7,7 @@ import { DataexamService } from 'src/app/common/dataexam.service';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit{
+export class HomeComponent implements OnInit {
   
   title = "AUG-18";
   bgRef:any;
