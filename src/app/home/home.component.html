@@ -33,19 +33,25 @@
                 <button type="button" class="btn btn-sm text-light d-none d-md-block" [ngClass]="bgRef.BG" style="opacity:.9;">
                         Featured Demo <span class="badge badge-light">Angular BASED</span>
                 </button>
+
                 <ul class="nav flex-column " style="font-size:small;">
-                    <li class="nav-item animated pulse  slow"  *ngFor="let iref of FEATURED_ANGULAR_LIST">
-                        <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{iref.DEMO_LINK}}">{{iref.TITLE}}</a>
-                    </li>
+                  <ng-container *ngFor="let iref of FEATURED_ANGULAR_LIST">
+                      <li *ngIf="iref.SHOW" class="nav-item animated pulse  slow"  >
+                          <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{iref.DEMO_LINK}}">{{iref.TITLE}}</a>
+                      </li>
+                  </ng-container>
                 </ul>
+                
 
                 <button type="button" class="btn btn-sm text-light d-none d-md-block mt-2" [ngClass]="bgRef.BG" style="opacity:.9;">
                         Featured Demo <span class="badge badge-light">DOM BASED</span>
                 </button>
                 <ul class="nav flex-column " style="font-size:small;">
-                    <li class="nav-item animated pulse   slow"  *ngFor="let iref of FEATURED_LIST">
-                        <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{iref.DEMO_LINK}}">{{iref.TITLE}}</a>
-                    </li>
+                    <ng-container *ngFor="let iref of FEATURED_LIST">
+                        <li *ngIf="iref.SHOW" class="nav-item animated pulse   slow"  >
+                            <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{iref.DEMO_LINK}}">{{iref.TITLE}}</a>
+                        </li>
+                    </ng-container>
                 </ul>
             </nav>
       </div>
