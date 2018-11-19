@@ -1,3 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~animate.css/animate.min.css';
+
+
+.card {
+    transition: 0.5s;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
+}
+
+.list-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.list-link:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.make-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.make-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.make-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textify-header{
+    font-size: x-large;
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #607D8B;
+}

@@ -1,3 +1,21 @@
-<p>
-  home works!
-</p>
+<!-- HEADER -->
+<div class="container-fluid sticky-top">
+  <div class="row" style="height:3.5rem" [ngClass]="bgRef.BG">
+      <div class="col-8 make-left text-light ">
+          <a class="btn textify-header" href="/" [ngClass]="bgRef.BTN">{{title}}</a> 
+      </div>
+
+      <div class="col-4 text-light make-right">
+          <a role="button" class="btn " [ngClass]="bgRef.BTN" href="#!dacexam">
+              Exam 
+          </a>
+          <div class="btn-group" role="group" aria-label="Basic example">
+              <button *ngFor="let iobj of bgList" type="button" class="btn btn-sm {{iobj.BG}}" (click)="uilayout(iobj);">&nbsp;</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
