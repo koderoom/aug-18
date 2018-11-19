@@ -3,7 +3,11 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { DacexamComponent } from './dacexam/dacexam.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: '', component: HomeComponent},
+  { path: 'home', component: HomeComponent},
+  { path: 'dacexam', component: DacexamComponent},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
