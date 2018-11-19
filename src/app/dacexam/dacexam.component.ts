@@ -14,13 +14,8 @@ export class DacexamComponent implements OnInit {
   bgList = [{"ID":1, "BG": "bg-primary", "BTN":"btn-primary"}, {"ID":2, "BG": "bg-danger", "BTN":"btn-danger"}, {"ID":3, "BG": "bg-dark", "BTN":"btn-dark"}, {"ID":3, "BG": "bg-info", "BTN":"btn-info"}];
   randomIndex = Math.floor((Math.random() * 4));
 
-  CARD_LIST:any[];
-  FEATURED_LIST:any[];
-  FEATURED_ANGULAR_LIST:any[];
-
   BASE_URL_DEMO:string;
   EXAM_LIST:any[];
-  TOPLIST:any[];
   B1LIST:any[];
   B2LIST:any[];
 
@@ -33,13 +28,8 @@ export class DacexamComponent implements OnInit {
   ngOnInit(): void {
     this.bgRef = this.bgList[this.randomIndex];
 
-    this.CARD_LIST = this.data.CARD_LIST;
-    this.FEATURED_LIST = this.data.FEATURED_LIST;
-    this.FEATURED_ANGULAR_LIST = this.data.FEATURED_ANGULAR_LIST;
-
     this.BASE_URL_DEMO = this.dataexam.BASE_URL_DEMO;
     this.EXAM_LIST = this.dataexam.EXAM_LIST;
-    this.TOPLIST = this.dataexam.B2LIST.concat(this.dataexam.B1LIST);
 
     this.B1LIST = this.dataexam.B1LIST;
     this.B2LIST = this.dataexam.B2LIST;
