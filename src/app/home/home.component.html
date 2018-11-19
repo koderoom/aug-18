@@ -10,9 +10,9 @@
               Exam 
           </a>
           <div class="btn-group" role="group" aria-label="Basic example">
-            <div *ngFor="let iobj of bgList">
+            <ng-container *ngFor="let iobj of bgList">
                 <button *ngIf="iobj != bgRef" type="button" class="btn btn-sm {{iobj.BG}}" (click)="uilayout(iobj);">&nbsp;</button>
-            </div>
+            </ng-container>
           </div>
       </div>
   </div>
