@@ -41,7 +41,8 @@ app.controller("home", ["$scope", "$sce", "DATA_SERVICE", "DATA_SERVICE_EXAM" , 
         // EXAM
         $scope.BASE_URL_DEMO = DATA_SERVICE_EXAM.BASE_URL_DEMO;
         $scope.EXAM_LIST = DATA_SERVICE_EXAM.EXAM_LIST;
-        $scope.B2LIST = DATA_SERVICE_EXAM.B2LIST;
+
+        $scope.TOPLIST  = DATA_SERVICE_EXAM.B2LIST.concat(DATA_SERVICE_EXAM.B1LIST) ;
     })();
 
     
@@ -68,6 +69,8 @@ app.controller("dacexam", ["$scope", "$sce", "DATA_SERVICE", "DATA_SERVICE_EXAM"
         // CARD DATA
         $scope.BASE_URL_DEMO = DATA_SERVICE_EXAM.BASE_URL_DEMO;
         $scope.EXAM_LIST = DATA_SERVICE_EXAM.EXAM_LIST;
+
+        $scope.B1LIST = DATA_SERVICE_EXAM.B1LIST;
         $scope.B2LIST = DATA_SERVICE_EXAM.B2LIST;
     })();
 

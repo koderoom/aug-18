@@ -32,7 +32,7 @@ appModule.service("DATA_SERVICE_EXAM", [function(){
         {"id":24,"rollid":"180840320024","show":false},
         {"id":25,"rollid":"180840320025","show":false},
         {"id":26,"rollid":"180840320026","show":true},
-        {"id":27,"rollid":"180840320027","show":false},
+        {"id":27,"rollid":"180840320027","show":true},
         {"id":28,"rollid":"180840320028","show":false},
         {"id":29,"rollid":"180840320029","show":true},
         {"id":30,"rollid":"180840320030","show":true},
@@ -143,6 +143,9 @@ appModule.service("DATA_SERVICE_EXAM", [function(){
         item["source_link"] = `${this.BASE_URL_SOURCE}${item.rollid}`;
     });
 
+    this.B1LIST = [
+        {"id":27,"rollid":"180840320027","show":true},
+    ]; 
 
     this.B2LIST = [
         {"id":20,"rollid":"180840320020","show":true},
