@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   
   title = "AUG-18";
   bgRef:any;
-  bgList = [{"ID":1, "BG": "bg-primary", "BTN":"btn-primary"}, {"ID":2, "BG": "bg-danger", "BTN":"btn-danger"}, {"ID":3, "BG": "bg-dark", "BTN":"btn-dark"}, {"ID":3, "BG": "bg-info", "BTN":"btn-info"}];
+  bgList = [{"ID":1, "BG": "bg-primary", "BTN":"btn-primary"}, {"ID":2, "BG": "bg-danger", "BTN":"btn-danger"}, {"ID":3, "BG": "bg-dark", "BTN":"btn-dark"}, {"ID":3, "BG": "bg-info", "BTN":"btn-info"}, {"ID":1, "BG": "bg-secondary", "BTN":"btn-secondary"}];
   randomIndex = Math.floor((Math.random() * 4));
 
   CARD_LIST:any[];
