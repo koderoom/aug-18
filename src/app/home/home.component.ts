@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../common/data.service';
 import { DataexamService } from 'src/app/common/dataexam.service';
+import { AppConstantsService } from 'src/app/common/app-constants.service';
 
 @Component({
   selector: 'app-home',
@@ -9,9 +10,9 @@ import { DataexamService } from 'src/app/common/dataexam.service';
 })
 export class HomeComponent implements OnInit {
   
-  title = "AUG-18";
+  title:string;
   bgRef:any;
-  bgList = [{"ID":1, "BG": "bg-primary", "BTN":"btn-primary"}, {"ID":2, "BG": "bg-danger", "BTN":"btn-danger"}, {"ID":3, "BG": "bg-dark", "BTN":"btn-dark"}, {"ID":3, "BG": "bg-info", "BTN":"btn-info"}, {"ID":1, "BG": "bg-secondary", "BTN":"btn-secondary"}];
+  bgList:any;
   randomIndex = Math.floor((Math.random() * 4));
 
   CARD_LIST:any[];
@@ -23,11 +24,15 @@ export class HomeComponent implements OnInit {
   TOPLIST:any[];
 
   constructor(
+    public appConstatnts: AppConstantsService,
     public data: DataService,
     public dataexam: DataexamService
   ) { }
 
   ngOnInit(): void {
+    this.title = this.appConstatnts.TITLE;
+
+    this.bgList = this.appConstatnts.BG_LIST;
     this.bgRef = this.bgList[this.randomIndex];
 
     this.CARD_LIST = this.data.CARD_LIST;
