@@ -153,7 +153,7 @@ export class DataexamService {
 
     this.B1LIST = [
       {"id":27,"rollid":"180840320027","show":true},
-      {"id":27,"rollid":"180840320084","show":true},
+      {"id":84,"rollid":"180840320084","show":true},
     ]; 
 
     this.B2LIST = [
