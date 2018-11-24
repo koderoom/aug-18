@@ -97,7 +97,7 @@ export class DataexamService {
       {"id":81,"rollid":"180840320081","show":false},
       {"id":82,"rollid":"180840320082","show":false},
       {"id":83,"rollid":"180840320083","show":true},
-      {"id":84,"rollid":"180840320084","show":false},
+      {"id":84,"rollid":"180840320084","show":true},
       {"id":85,"rollid":"180840320085","show":false},
       {"id":86,"rollid":"180840320086","show":false},
       {"id":87,"rollid":"180840320087","show":false},
@@ -153,6 +153,7 @@ export class DataexamService {
 
     this.B1LIST = [
       {"id":27,"rollid":"180840320027","show":true},
+      {"id":27,"rollid":"180840320084","show":true},
     ]; 
 
     this.B2LIST = [
