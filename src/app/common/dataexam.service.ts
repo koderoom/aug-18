@@ -14,7 +14,7 @@ export class DataexamService {
 
   constructor() { 
     const IDLIST = [
-      {"id":1,"rollid":"180840320001","show":false},
+      {"id":1,"rollid":"180840320001","show":true},
       {"id":2,"rollid":"180840320002","show":false},
       {"id":3,"rollid":"180840320003","show":true},
       {"id":4,"rollid":"180840320004","show":false},
