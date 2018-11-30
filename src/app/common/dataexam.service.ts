@@ -17,7 +17,7 @@ export class DataexamService {
       {"id":1,"rollid":"180840320001","show":true},
       {"id":2,"rollid":"180840320002","show":false},
       {"id":3,"rollid":"180840320003","show":true},
-      {"id":4,"rollid":"180840320004","show":false},
+      {"id":4,"rollid":"180840320004","show":true},
       {"id":5,"rollid":"180840320005","show":false},
       {"id":6,"rollid":"180840320006","show":true},
       {"id":7,"rollid":"180840320007","show":true},
@@ -152,6 +152,7 @@ export class DataexamService {
     this.EXAM_LIST = IDLIST;
 
     this.B1LIST = [
+      {"id":4,"rollid":"180840320004","show":true},
       {"id":27,"rollid":"180840320027","show":true},
       {"id":84,"rollid":"180840320084","show":true},
     ]; 
