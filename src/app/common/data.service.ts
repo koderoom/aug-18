@@ -472,8 +472,16 @@ export class DataService {
 
 
     /** FEATURED LIST */
+    const featured6 = {
+        "ID" : 6,
+        "TITLE" : "Ludo Game Simulation",
+        "SHOW" : true,
+        "DEMO_LINK" : `${BASE_URL_DEMO}/ludo/ludo-game-simulation.html`
+    };
+    FEATURED_LIST.push(featured6);
+
     const featured4= {
-        "ID" : 3,
+        "ID" : 4,
         "TITLE" : "Weather App Extended",
         "SHOW" : true,
         "DEMO_LINK" : `${BASE_URL_DEMO}/featured/weather-app.html`
