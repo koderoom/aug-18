@@ -99,7 +99,7 @@
               </button>
               <ul class="nav flex-column " style="font-size:small;">
                   <ng-container *ngFor="let iref of TOPLIST">
-                      <li *ngIf="iref.show" class="nav-item animated zoomIn infinite slower" >
+                      <li *ngIf="iref.show" class="nav-item animated zoomIn slower"  style="animation-iteration-count:2;">
                           <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{BASE_URL_DEMO + iref.rollid}}">{{iref.rollid}}</a>
                       </li>
                   </ng-container>

@@ -36,7 +36,7 @@
                 </button>
                 <ul class="nav flex-column " style="font-size:small;">
                     <ng-container *ngFor="let iref of B1LIST">
-                        <li class="nav-item  animated zoomIn infinite slower" *ngIf="iref.show" >
+                        <li class="nav-item  animated zoomIn slower" *ngIf="iref.show" style="animation-iteration-count:2;">
                             <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{BASE_URL_DEMO + iref.rollid}}">{{iref.rollid}}</a>
                         </li>
                     </ng-container>
@@ -76,7 +76,7 @@
                 </button>
                 <ul class="nav flex-column " style="font-size:small;">
                     <ng-container *ngFor="let iref of B2LIST">
-                      <li class="nav-item  animated zoomIn infinite slower" *ngIf="iref.show" >
+                      <li class="nav-item  animated zoomIn slower" style="animation-iteration-count:2;" *ngIf="iref.show" >
                           <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{BASE_URL_DEMO + iref.rollid}}">{{iref.rollid}}</a>
                       </li>
                     </ng-container>
