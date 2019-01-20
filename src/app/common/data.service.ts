@@ -30,7 +30,7 @@ export class DataService {
             },
         ]
     };
-    CARD_LIST.push(cardDay17);
+    // CARD_LIST.push(cardDay17);
 
     // DAY - 16
     const cardDay16 = {
