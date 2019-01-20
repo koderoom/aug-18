@@ -16,6 +16,22 @@ export class DataService {
     const FEATURED_ANGULAR_LIST = [];
 
 
+    // DAY - 17
+    const cardDay17 = {
+        "ID" : 17,
+        "TITLE" : "DAY 17",
+        "HEADING" : "A day with Backend programming using SPRING MVC",
+        "DESC" : `A day with Backend programming using SPRING MVC`,
+
+        "DEMO_LIST" : [
+            {
+                "ID":1, "TITLE": "A day with Backend programming using SPRING MVC", 
+                "SOURCE_LINK" : `https://github.com/koderoom/augspring/tree/master/demoapp`,
+            },
+        ]
+    };
+    CARD_LIST.push(cardDay17);
+
     // DAY - 16
     const cardDay16 = {
         "ID" : 16,
