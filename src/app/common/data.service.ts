@@ -16,16 +16,33 @@ export class DataService {
     const FEATURED_ANGULAR_LIST = [];
 
 
-    // DAY - 17
-    const cardDay17 = {
+    // DAY - 18
+    const cardDay18 = {
         "ID" : 17,
-        "TITLE" : "DAY 17",
-        "HEADING" : "A day with Backend programming using SPRING MVC",
-        "DESC" : `A day with Backend programming using SPRING MVC`,
+        "TITLE" : "Project Reference - 18 | Angular Ajax | Integration with backend API",
+        "HEADING" : "Ajax Request using Angular | Integration with backend API",
+        "DESC" : `Ajax Request using Angular | Integration with backend API`,
 
         "DEMO_LIST" : [
             {
-                "ID":1, "TITLE": "A day with Backend programming using SPRING MVC", 
+                "ID":1, "TITLE": "Ajax Request using Angular | Integration with backend API", 
+                "SOURCE_LINK" : `https://github.com/junkbin/AngularAjax`,
+            },
+        ]
+    };
+    CARD_LIST.push(cardDay18);
+
+
+    // DAY - 17
+    const cardDay17 = {
+        "ID" : 17,
+        "TITLE" : "Project Reference - 17 | Spring MVC | Building RESTful API",
+        "HEADING" : "A day with Backend programming using SPRING MVC | Building RESTful API",
+        "DESC" : `Backend programming using SPRING MVC | Building RESTful API`,
+
+        "DEMO_LIST" : [
+            {
+                "ID":1, "TITLE": "Backend programming using SPRING MVC | Building RESTful API", 
                 "SOURCE_LINK" : `https://github.com/koderoom/augspring/tree/master/demoapp`,
             },
         ]
