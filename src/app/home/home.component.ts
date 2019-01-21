@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../common/data.service';
 import { DataexamService } from 'src/app/common/dataexam.service';
 import { AppConstantsService } from 'src/app/common/app-constants.service';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+
 
 @Component({
   selector: 'app-home',
@@ -13,6 +15,7 @@ export class HomeComponent implements OnInit {
   title:string;
   bgRef:any;
   bgList:any;
+  faYoutube = faYoutube;
   randomIndex = Math.floor((Math.random() * 4));
 
   CARD_LIST:any[];

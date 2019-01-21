@@ -79,12 +79,15 @@
 
               <ul class="list-group list-group-flush">
                   <li *ngFor="let demoRef of iobj.DEMO_LIST"  class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                      <a target="_blank" href="{{demoRef.DEMO_LINK}}" class="list-link">
+                      <a target="_blank" href="{{demoRef.DEMO_LINK || '#'}}" class="list-link">
                           <span [innerHTML]="demoRef.TITLE"></span>
                       </a> 
                       <span class="d-flex justify-content-end align-items-center">
-                          <a target="_blank" href="{{demoRef.SOURCE_LINK}}" class="badge badge-info badge-pill mr-1">Source</a>
+                          <a *ngIf="demoRef.SOURCE_LINK" target="_blank" href="{{demoRef.SOURCE_LINK}}" class="badge badge-info badge-pill mr-1">Source</a>
                           <a *ngIf="demoRef.DEMO_LINK"  target="_blank" href="{{demoRef.DEMO_LINK}}" class="badge badge-primary badge-pill">Demo</a>
+                          <a *ngIf="demoRef.YOUTUBE_LINK"  target="_blank" href="{{demoRef.YOUTUBE_LINK}}" class="badge badge-danger badge-pill">
+                            <fa-icon [icon]="faYoutube"></fa-icon>
+                          </a>
                       </span>
                   </li>
               </ul>
