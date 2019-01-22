@@ -42,13 +42,44 @@ export class DataService {
 
         "DEMO_LIST" : [
             {
-                "ID":1, "TITLE": "Backend programming using SPRING MVC | Building RESTful API", 
+                "ID":0, "TITLE": "Backend programming using SPRING MVC | Building RESTful API", 
                 "SOURCE_LINK" : `https://github.com/koderoom/augspring/tree/master/demoapp`,
             },
-
             {
-                "ID":2, "TITLE": "1. Create and Run #DynamicWebProject in #Eclipse using #tomcat.", 
+                "ID":1, "TITLE": "1. Create and Run #DynamicWebProject in #Eclipse using #tomcat.", 
                 "YOUTUBE_LINK" : `https://youtu.be/HsYvNa2nkY4`,
+            },
+            {
+                "ID":2, "TITLE": "2. Convert #DynamicWebProject to #Maven Project and Add #Spring core dependencies in #Eclipse", 
+                "YOUTUBE_LINK" : `https://youtu.be/K4BXPxOZZ3k`,
+            },
+            {
+                "ID":3, "TITLE": "3. Add Spring MVC dependencies using maven in eclipse.", 
+                "YOUTUBE_LINK" : `https://youtu.be/Nmji5SF0qyQ`,
+            },
+            {
+                "ID":4, "TITLE": "4. Configuration file web.xml and spring-servlet.xml. | How to update config files for spring mvc?", 
+                "YOUTUBE_LINK" : `https://youtu.be/kZGcdn5KrRY`,
+            },
+            {
+                "ID":5, "TITLE": "5. Spring configuration update | Add annotation support in spring-servlet.xml", 
+                "YOUTUBE_LINK" : `https://youtu.be/PF1WJj0FE1s`,
+            },
+            {
+                "ID":6, "TITLE": "6. Write and run first #Spring #REST API | Hello Spring REST API.", 
+                "YOUTUBE_LINK" : `https://youtu.be/saYdz0CORec`,
+            },
+            {
+                "ID":7, "TITLE": "7  Resolve View in MVC using RestController Annotation", 
+                "YOUTUBE_LINK" : `6. Write and run first #Spring #REST API | Hello Spring REST API.`,
+            },
+            {
+                "ID":8, "TITLE": "8. Building REST GET API | Basic concept step by step.", 
+                "YOUTUBE_LINK" : `https://youtu.be/odIhv8HcQrw`,
+            },
+            {
+                "ID":9, "TITLE": "9. Building REST POST API | Basic concept step by step.", 
+                "YOUTUBE_LINK" : `https://youtu.be/iRZ7wmfqyoA`,
             },
         ]
     };
