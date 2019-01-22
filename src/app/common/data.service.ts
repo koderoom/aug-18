@@ -16,6 +16,31 @@ export class DataService {
     const FEATURED_ANGULAR_LIST = [];
 
 
+    // DAY - 19
+    const cardDay19 = {
+        "ID" : 19,
+        "TITLE" : "Project Reference - 19 | Integrating Angular and Spring Project using Ajax",
+        "HEADING" : "Integrating Angular and Spring Project using Ajax",
+        "DESC" : `Integrating Angular and Spring Project using Ajax`,
+
+        "DEMO_LIST" : [
+            {
+                "ID":1, "TITLE": "How to download and import #spring project from #github in #Eclipse.", 
+                "YOUTUBE_LINK" : `https://youtu.be/Tt_Znbg0QUc`,
+            },
+            {
+                "ID":2, "TITLE": "How to download and import #Angular project from #Github in #VSCODE.", 
+                "YOUTUBE_LINK" : `https://youtu.be/oh4mnlM_eYA`,
+            },
+            {
+                "ID":2, "TITLE": "Integrating  #ANGULAR and #SPRING project using #AJAX.", 
+                "YOUTUBE_LINK" : `https://youtu.be/uRDHtEqpBCA`,
+            },
+        ]
+    };
+    CARD_LIST.push(cardDay19);
+
+
     // DAY - 18
     const cardDay18 = {
         "ID" : 17,
