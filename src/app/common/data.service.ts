@@ -15,6 +15,22 @@ export class DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+    // DAY - 20
+    const cardDay20 = {
+        "ID" : 20,
+        "TITLE" : "Project Reference - 20 | Angular Ajax Client - Places Example",
+        "HEADING" : "Integrating Angular and Spring Project using Ajax",
+        "DESC" : `Integrating Angular and Spring Project using Ajax`,
+
+        "DEMO_LIST" : [
+            {
+                "ID":1, "TITLE": "Angular Ajax Client - Places Example", 
+                "SOURCE_LINK" : `https://github.com/junkbin/AngularAjax`,
+            }
+        ]
+    };
+    CARD_LIST.push(cardDay20);
+
     // DAY - 19
     const cardDay19 = {
         "ID" : 19,
