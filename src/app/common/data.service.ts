@@ -15,7 +15,6 @@ export class DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
-
     // DAY - 19
     const cardDay19 = {
         "ID" : 19,
