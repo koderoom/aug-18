@@ -25,7 +25,7 @@ export class DataService {
         "DEMO_LIST" : [
             {
                 "ID":1, "TITLE": "Angular Ajax Client - Places Example", 
-                "SOURCE_LINK" : `https://github.com/junkbin/AngularAjax`,
+                "SOURCE_LINK" : `https://github.com/koderoom/angular-ajax-client`,
             }
         ]
     };
