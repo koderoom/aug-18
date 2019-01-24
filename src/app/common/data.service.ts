@@ -26,7 +26,40 @@ export class DataService {
             {
                 "ID":1, "TITLE": "Angular Ajax Client - Places Example", 
                 "SOURCE_LINK" : `https://github.com/koderoom/angular-ajax-client`,
-            }
+            },
+
+            {
+                "ID":1, "TITLE": "Project Ref.1 - Custom Places #RESTFul #GET API using #SPRING #MVC", 
+                "YOUTUBE_LINK" : `https://youtu.be/CAegLq0k9rY`,
+            },
+            {
+                "ID":2, "TITLE": "Project Ref.2 - Custom Places #RESTFul #GET API using #SPRING #MVC", 
+                "YOUTUBE_LINK" : `https://youtu.be/4WJpaCfzXGw`,
+            },
+            {
+                "ID":3, "TITLE": "Project Ref.3 - Custom Places #RESTFul #POST API using #SPRING #MVC", 
+                "YOUTUBE_LINK" : `https://youtu.be/a_Fh3Gsf4bk`,
+            },
+            {
+                "ID":4, "TITLE": "Project Ref.4 - Fronted End Project Setup using #Angular & #Bootstrap", 
+                "YOUTUBE_LINK" : `https://youtu.be/6FKxbQTzSDc`,
+            },
+            {
+                "ID":5, "TITLE": "Project Ref.5 - Fronted End layout design for custom places using #bootstrap.", 
+                "YOUTUBE_LINK" : `https://youtu.be/mASAYv1XmZw`,
+            },
+            {
+                "ID":6, "TITLE": "Project Ref.6 - Fronted End - Working with #FormsModule and #ngModel directive in #Angular", 
+                "YOUTUBE_LINK" : `https://youtu.be/QfNgD-Nusx8`,
+            },
+            {
+                "ID":7, "TITLE": "Project Ref.7 - Fronted End - Working with #HttpClientModule and #HttpClient #ajax in #Angular", 
+                "YOUTUBE_LINK" : `https://youtu.be/eIlUmqR4g5Y`,
+            },
+            {
+                "ID":8, "TITLE": "Project Ref.8 - Fronted End - #ajax request on #component load.", 
+                "YOUTUBE_LINK" : `https://youtu.be/9KhEAT4dni0`,
+            },
         ]
     };
     CARD_LIST.push(cardDay20);
