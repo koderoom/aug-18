@@ -15,7 +15,7 @@ export class DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
-    // DAY - 20
+    // DAY -- 20
     const cardDay20 = {
         "ID" : 20,
         "TITLE" : "Project Reference - 20 | Angular Ajax Client - Places Example",
