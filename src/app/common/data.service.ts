@@ -21,7 +21,7 @@ export class DataService {
         "TITLE" : "Project Reference - 20 | Angular Ajax Client - Places Example",
         "HEADING" : "Integrating Angular and Spring Project using Ajax",
         "DESC" : `Integrating Angular and Spring Project using Ajax`,
-
+        "HIDE" : true,
         "DEMO_LIST" : [
             {
                 "ID":1, "TITLE": "Angular Ajax Client - Places Example", 
@@ -70,7 +70,7 @@ export class DataService {
         "TITLE" : "Project Reference - 19 | Integrating Angular and Spring Project using Ajax",
         "HEADING" : "Integrating Angular and Spring Project using Ajax",
         "DESC" : `Integrating Angular and Spring Project using Ajax`,
-
+        "HIDE" : true,
         "DEMO_LIST" : [
             {
                 "ID":1, "TITLE": "How to download and import #spring project from #github in #Eclipse.", 
@@ -95,7 +95,7 @@ export class DataService {
         "TITLE" : "Project Reference - 18 | Angular Ajax | Integration with backend API",
         "HEADING" : "Ajax Request using Angular | Integration with backend API",
         "DESC" : `Ajax Request using Angular | Integration with backend API`,
-
+        "HIDE" : true,
         "DEMO_LIST" : [
             {
                 "ID":1, "TITLE": "Ajax Request using Angular | Integration with backend API", 
@@ -112,7 +112,7 @@ export class DataService {
         "TITLE" : "Project Reference - 17 | Spring MVC | Building RESTful API",
         "HEADING" : "A day with Backend programming using SPRING MVC | Building RESTful API",
         "DESC" : `Backend programming using SPRING MVC | Building RESTful API`,
-
+        "HIDE" : true,
         "DEMO_LIST" : [
             {
                 "ID":0, "TITLE": "Backend programming using SPRING MVC | Building RESTful API", 
